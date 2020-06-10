@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1418b09-d5bd-4c36-92ab-d877de755f43" name="Default Changelist" comment="Initial Version">
+      <change afterPath="$PROJECT_DIR$/.idea/PocketDev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GeneratePluginSkeleton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UpdateDeVirion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UpdatePMMP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\fiber\PocketDev\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" hide_empty_superglobals="false" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP PocketMine">
+    <include_path>
+      <path value="./server/PocketMine-MP.phar" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1cK3MoGt47diWvonFhLp3pPskh9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/php/7.3/ext/php_xdebug-2.9.5-7.3-vc15-x86_64.dll" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.Setup Environment">
+    <configuration name="Generate Plugin Skeleton" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/GeneratePluginSkeleton.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Server (All Plugins)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/run.php" scriptParameters="--all">
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Server" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/run.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Setup Environment" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/setup.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Update DeVirion" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/UpdateDeVirion.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Update PocketMine-MP" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/UpdatePMMP.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Script.Run Server" />
+      <item itemvalue="PHP Script.Run Server (All Plugins)" />
+      <item itemvalue="PHP Script.Update PocketMine-MP" />
+      <item itemvalue="PHP Script.Update DeVirion" />
+      <item itemvalue="PHP Script.Setup Environment" />
+      <item itemvalue="PHP Script.Generate Plugin Skeleton" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1418b09-d5bd-4c36-92ab-d877de755f43" name="Default Changelist" comment="" />
+      <created>1590263411900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590263411900</updated>
+      <workItem from="1590263413208" duration="3384000" />
+      <workItem from="1590344973116" duration="121173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
