@@ -64,7 +64,6 @@ function isPluginDir(string $path) : bool{
  * @param int|null $compression
  */
 function buildPhar(string $pharPath, string $basePath, array $includedPaths, string $stub = PLUGIN_STUB, int $signatureAlgo = \Phar::SHA1, ?int $compression = null){
-    $basePath = realpath($basePath);
     if(file_exists($pharPath)){
         echo "Phar file already exists, overwriting...\n";
         try{
@@ -195,9 +194,9 @@ if(empty($plugins)){
 @mkdir(DIR_PLUGINS_SOURCE);
 //@mkdir(__DIR__ . DS ."server" . DS . "plugin_data" . DS . "VirionTools" . DS . "plugins");
 foreach($plugins as $plugin){
-    $pharPath = (__DIR__ . DS . "server" . DS . "plugins" . DS . "$plugin.phar");
+    $pharPath = (DIR_PLUGINS_SERVER . "$plugin.phar");
     echo "Building $plugin\n";
-    buildPhar($pharPath, "plugins" . DS . "$plugin", []);
+    buildPhar($pharPath, DIR_PLUGINS_SOURCE . "$plugin", []);
     //copy($pharPath, __DIR__ . DS ."server" . DS . "plugin_data" . DS . "VirionTools" . DS . "plugins" .DS . "$plugin.phar");
 }
 
