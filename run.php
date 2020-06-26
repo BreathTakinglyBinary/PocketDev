@@ -59,7 +59,6 @@ function isPluginDir(string $path) : bool{
  * @param string   $pharPath
  * @param string   $basePath
  * @param string[] $includedPaths
- * @param array    $metadata
  * @param string   $stub
  * @param int      $signatureAlgo
  * @param int|null $compression
