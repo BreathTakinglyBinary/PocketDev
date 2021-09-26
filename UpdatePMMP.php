@@ -7,7 +7,7 @@ echo("    - Updating PocketMine-MP -\n");
 if(file_exists(getcwd() . "/server/PocketMine-MP.phar")){
     unlink(getcwd() . "/server/PocketMine-MP.phar");
 }
-if(!copy("https://jenkins.pmmp.io/job/PocketMine-MP/lastStableBuild/artifact/PocketMine-MP.phar", getcwd() . "/server/PocketMine-MP.phar")){
+if(!copy("https://github.com/pmmp/PocketMine-MP/releases/latest/download/PocketMine-MP.phar", getcwd() . "/server/PocketMine-MP.phar")){
     throw new \RuntimeException("Failed to download PocketMine-MP.phar");
 }
 echo("    - PocketMine-MP Update Completed -\n");
