@@ -41,7 +41,7 @@ After running "Setup Environment" a "plugins" folder and "server" folder will be
 
 >___
 >#### Updating PocketMine-MP
->Occasionally, you may need to update the version of PocketMine-MP your test environment is using. The easiest way to do this is to use the "Update PocketMine-MP" run configuration.  This will remove the current PocketMine-MP server file and replace it with whatever the most current, stable version is on Jenkins.  Optionally, you can manually update the file by downloading a replacement from [Jenkins](https://jenkins.pmmp.io/job/PocketMine-MP/).
+>Occasionally, you may need to update the version of PocketMine-MP your test environment is using. The easiest way to do this is to use the "Update PocketMine-MP" run configuration.  This will remove the current PocketMine-MP server file and replace it with whatever the most current, stable version is on GitHub.  Optionally, you can manually update the file by downloading a replacement from [GitHub Releases](https://github.com/pmmp/PocketMine-MP/releases).
 
 >___
 >#### DeVirion
